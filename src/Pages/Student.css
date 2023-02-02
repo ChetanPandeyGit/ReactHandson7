@@ -1,0 +1,67 @@
+.tableData {
+    background: linear-gradient(to bottom, rgb(65, 177, 222,.7), rgb(246, 131, 150,.7), white);
+    min-height: 80vh;
+    margin-top: -2rem;
+  }
+  
+  .tableData-head {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem 3rem;
+    padding-top: 1rem;
+  }
+ 
+
+  .button {
+    background-color: rgb(249, 249, 184);
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0.5rem 0.9rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  
+  .form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 7rem;
+    margin-top: -2rem;
+    padding-top: 3rem;   
+  background: linear-gradient(to bottom, rgb(65, 177, 222,.7), rgb(246, 131, 150,.7), white);
+  min-height: 80vh;
+  
+  }
+  
+  .inputRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    align-self: flex-start;
+  }
+  
+  .buttonContainer .link {
+    margin-left: 1rem;
+    width: 10rem;
+  }
+  
+  .cancel {
+    background-color: rgba(114, 99, 99, 0.921);
+  }
+  
+  .input {
+    width: 25rem;
+  }
